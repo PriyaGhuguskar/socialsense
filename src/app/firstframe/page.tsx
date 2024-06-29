@@ -57,7 +57,7 @@ const FrameFirst: React.FC = () => {
     <div className="flex h-screen">
       {/* Sidebar */}
       <div className="w-1/8 bg-gray-100 p-4 hidden md:block">
-        <div className="text-xl font-bold mb-6">Logo Here</div>
+        <div className="text-xl font-bold mb-6"></div>
         <nav className="space-y-4">
           <a href="#" className="block p-2 hover:bg-gray-200">
             Home
@@ -96,7 +96,7 @@ const FrameFirst: React.FC = () => {
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-2xl font-bold">Themes</h1>
           <div className="flex items-center">
-            <span className="mr-4">Kushagra Singh</span>
+            <span className="mr-4">Priya Ghuguskar</span>
             <button className="p-4 bg-gray-300 rounded-full"></button>
           </div>
         </div>
@@ -105,15 +105,7 @@ const FrameFirst: React.FC = () => {
             className="bg-slate-100 border-slate-50 rounded flex justify-between content-center"
             style={{ border: "1px solid black" }}
           >
-            <div className="content-center">
-              <h1 className="text-xl m-4">Apply a skin to your profile</h1>
-            </div>
-            <div className="content-center px-4">
-              <button className="p-2 bg-gray-300 rounded">Custom</button>
-              <button className="ml-4 p-2 bg-blue-600 text-white rounded">
-                Save
-              </button>
-            </div>
+
           </div>
         </div>
 
